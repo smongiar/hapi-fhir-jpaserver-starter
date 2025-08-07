@@ -376,3 +376,9 @@ hapi:
 #  protocol: 'http'
 #  schema_management_strategy: CREATE
 #  username: SomeUsername
+
+logging.level.org.springframework.security: TRACE
+
+auth.enabled: true
+auth.username: myuser
+auth.password: mypassword
